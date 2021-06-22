@@ -1,0 +1,39 @@
+quasar framework:
+npm install -g @quasar/cli
+quasar create quasar-todo
+project name: qusar todo
+leave all the dependencies
+used syntax sass, auto import
+disable all options it depends.
+
+cd quasar-proj
+quasar dev
+
+
+https://youtu.be/GV-D85D9KJQ
+
+webApp:
+quasar dev -m electron
+web-application run in .exe
+
+
+Another Platform:
+got to quasar.conf.js and search electrons packager
+packager: {
+        //platform: "win32"
+}
+quasar build -m electron
+error:
+bundler is not a function -> delete the node_modules and install npm
+
+
+*cordova is used for mobile applications framework
+
+
+Android App:
+Launch Android Virtual Device
+quasar dev -m cordova -T android
+
+IOS App:
+run the xcode
+quasar dev -m cordova -T ios
